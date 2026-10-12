@@ -16,3 +16,5 @@ POST /api/cotizar  { "peso": 3, "tipoCliente": "VIP", "tipoEnvio": "EXPRESS" }
 - Subtotal = $5.00 + (peso x tarifa del tramo). La tarifa del tramo aplica a TODO el peso (no escalonada).
 - El descuento se aplica al subtotal; luego el recargo EXPRESS (+25%) se aplica sobre el valor ya descontado.
 - Resultado redondeado a 2 decimales.
+
+
